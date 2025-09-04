@@ -1,0 +1,35 @@
+/* Estilos básicos para el menú */
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  padding: 1rem;
+}
+
+#menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* Estilos para la primera clase agregada a los <li> */
+.menu-item {
+  margin: 0 15px;
+}
+
+/* Estilos para la segunda clase agregada a los <li> */
+.nav-link a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link a:hover {
+  color: #ffc107;
+}
