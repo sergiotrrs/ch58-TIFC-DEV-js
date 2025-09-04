@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <header>
-        
+
     </header>
-    
+
     <main>
         <section id="main-section">
             <h1 id="main-header">Main Section</h1>
@@ -17,14 +19,32 @@
         </section>
 
         <section id="secondary-section">
-            <button onclick="changeTitle('Soy un script que se ejecutó con el botón')" >Change main Text</button>
+            <button onclick="changeTitle('Soy un script que se ejecutó con el botón')">Change main Text</button>
         </section>
+
+        <section id="description-section">
+            <p id="description-text" class="text-center">Párrafo a cambiar</p>
+            <button onclick="changeParagraph()">Change Description Text</button>
+        </section>
+
+        <section id="list-section">       
+            <h2>Lenguajes de Programación</h2>
+            <ul id="language-list">
+                <li class="list-item">JavaScript</li>
+                <li class="list-item backend">Python</li>
+                <li class="list-item">Java</li>
+                <li class="list-item backend">PHP</li>
+            </ul>
+            <button onclick="changeStyle()">change style</button>
+        </section>
+
     </main>
-    
+
     <footer>
-        
+
     </footer>
-    
+
     <script src="./main.js" defer></script>
 </body>
+
 </html>

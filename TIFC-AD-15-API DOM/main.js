@@ -37,3 +37,33 @@ function changeTitle( newText ) {
 
 changeTitle( "Hola, ya casi nos vamos a comer, ñam ñam");
 
+/**
+ * Manipulando un párrafo usando el selector universal
+ */
+function changeParagraph() {
+    // const paragraph = document.querySelector("p"); // seleccionado por su tag
+    // const paragraph = document.querySelector("#description-text"); // seleccionado por su ID
+    // const paragraph = document.querySelector(".text-center"); // seleccionar por su clase CSS
+    // const paragraph = document.querySelector("p.text-center"); // seleccionar por su tag y clase CSS
+    const paragraph = document.querySelector("#description-section p"); // seleccionar por su tag dentro de un ID
+    console.log(paragraph);
+    paragraph.textContent = "Párrafo modificado con querySelector";
+    paragraph.style.color = "green";
+    paragraph.style.fontWeight = "bold";
+}
+
+/**
+ * Manipulando el estilo de una lista, usando quertySelectorAll
+ */
+function changeStyle() {
+    const listItems = document.querySelectorAll("#language-list li");
+    console.log(listItems);
+
+    // for ( let i = 0; i < listItems.length; i++ ) {
+    for (const item of listItems) {        
+        //const item = listItems[i];
+        item.style.color = "purple";
+        item.style.fontSize = "20px";
+        item.style.fontWeight = "bold";
+    }
+}
