@@ -1,0 +1,32 @@
+[
+  {
+    "nombre": "Inception",
+    "año_estreno": 2010,
+    "director": "Christopher Nolan",
+    "actores": [
+      "Leonardo DiCaprio",
+      "Elliot Page"
+    ],
+    "género": "Ciencia ficción"
+  },
+  {
+    "nombre": "The Matrix",
+    "año_estreno": 1999,
+    "director": "The Wachowskis",
+    "actores": [
+      "Keanu Reeves",
+      "Laurence Fishburne"
+    ],
+    "género": "Acción"
+  },
+  {
+    "nombre": "The Matrix",
+    "año_estreno": 1999,
+    "director": "The Wachowskis",
+    "actores": [
+      "Keanu Reeves",
+      "Laurence Fishburne"
+    ],
+    "género": "Acción"
+  }
+]

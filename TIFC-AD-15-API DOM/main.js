@@ -120,7 +120,7 @@ function createNativeDomMenu( menuItems ) {
     // Creamos el enlace <a>
     const linkItem = document.createElement("a");
     linkItem.textContent = itemText;
-    linkItem.href = `#${itemText.toLowerCase()}`;
+    linkItem.href = `#${itemText.toLowerCase()}`; // `https://www.${itemText.toLowerCase()}.com`
 
     // Añadimos el enlace <a> dentro del <li>
     listItem.appendChild(linkItem);
@@ -178,4 +178,4 @@ function createInnerHtmlMenu( menuItems) {
 
 
 // createNativeDomMenu( menuItems );
-createInnerHtmlMenu( menuItems);
+ createInnerHtmlMenu( menuItems);
