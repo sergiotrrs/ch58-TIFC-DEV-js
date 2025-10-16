@@ -177,3 +177,10 @@ console.log(numeros); // [ 1, 2, 3, 4, 5, 6, 7, 8, 10 ]
   El resultado debe ser: [ 10, 8, 7, 6, 5, 4, 3, 2, 1 ]
 
 */
+const ordenarDescendente = ( a , b) => {
+    if ( a > b ) return -1; 
+    if( a < b ) return 1; 
+    return 0; 
+}
+
+const ordenarDescendenteSimplificado = (a, b) => b - a;  
